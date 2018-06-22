@@ -1,4 +1,4 @@
-package calculadora;
+package main.java.calculadora;
 
 public class Soma {
 	

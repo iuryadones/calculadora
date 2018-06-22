@@ -1,4 +1,4 @@
-package calculadora;
+package test.java.calculadora;
 
 import static org.junit.Assert.assertEquals;
 
@@ -6,13 +6,15 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+import main.java.calculadora.Soma;
+
 public class SomaTest {
 
 	public int valorX, valorY, resposta;
 	
 	@Before
 	public void atribuiValores() {
-		valorX = 1;
+		valorX = 10;
 		valorY = 5;
 		resposta = 15;
 	}
