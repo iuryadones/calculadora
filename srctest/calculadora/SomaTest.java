@@ -12,7 +12,7 @@ public class SomaTest {
 	
 	@Before
 	public void atribuiValores() {
-		valorX = 10;
+		valorX = 1;
 		valorY = 5;
 		resposta = 15;
 	}
