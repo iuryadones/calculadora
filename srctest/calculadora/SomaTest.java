@@ -23,7 +23,8 @@ public class SomaTest {
 
 		System.out.println("Esperado: "+valorX+" + "+valorY+" = "+resposta);
 		System.out.println("Gerado: "+valorX+" + "+valorY+" = "+soma.calc(valorX, valorY));
-		
+		System.out.println("Esperado: "+valorY+" + "+valorX+" = "+resposta);
+		System.out.println("Gerado: "+valorY+" + "+valorX+" = "+soma.calc(valorY, valorX));
 	}
 
 	@Test
@@ -33,4 +34,12 @@ public class SomaTest {
 		assertEquals(resposta, soma.calc(valorX, valorY));
 	}
 
+	@Test
+	public void somarValorYcomValorX() {
+		Soma soma = new Soma();
+
+		assertEquals(resposta, soma.calc(valorY, valorX));
+	}
+
+	
 }
